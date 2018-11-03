@@ -34,7 +34,9 @@ Other relevant websites
 - [Index Mundi imports/exports](https://www.indexmundi.com/trade/exports/?fbclid=IwAR3kwLE6OsmnoGuBRTFrlsmTsd94Xio8uGUCB7aw472rnmfpUnl2lI8GUvI) (medium) : should be parsed, an ingredient is local if it is exported
 
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
+- Preprocessing of each dataset mentioned above. (format the datasets, deal with NaN values, ...)
+- Prepare a pipeline to answer each subquestion that will be implemented between milestone 2 and 3.
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
+- Do you think the size of the project is reasonable ?
+
