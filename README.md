@@ -37,6 +37,6 @@ Other relevant websites
 - Preprocessing of each dataset mentioned above. (format the datasets, deal with NaN values, ...)
 - Prepare a pipeline to answer each subquestion that will be implemented between milestone 2 and 3.
 
-# Questions for TAa
+# Questions for TA
 - Do you think the size of the project is reasonable ?
 
