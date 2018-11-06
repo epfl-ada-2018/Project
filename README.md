@@ -24,3 +24,10 @@ Until milestone 2 we want to make the following steps:
 3. Analyze the posts time distribution.
 4. Look for additional interesting patterns.
 5. Decide if we also need to use Wikipedia data to produce more observations.
+
+# TODO
+1. Crawl / get data:
+  * [Wiki Logs](https://www.mediawiki.org/wiki/API:Logevents)
+  * [Twitter API](https://developer.twitter.com/en/docs/tweets/batch-historical/overview)
+
+2. Plot the distributions
