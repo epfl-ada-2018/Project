@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+*.zip
+*.json
+*.zip.*
+*.parquet
+spark-warehouse/

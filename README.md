@@ -31,3 +31,6 @@ Until milestone 2 we want to make the following steps:
   * [Twitter API](https://developer.twitter.com/en/docs/tweets/batch-historical/overview)
 
 2. Plot the distributions
+
+# Some useful links
+1. [Wikipedia Python Client](https://mwclient.readthedocs.io/en/master/reference/site.html?highlight=changes#mwclient.client.Site.recentchanges)
