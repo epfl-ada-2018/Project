@@ -41,7 +41,6 @@ dependencies:
   - libsodium=1.0.16=h470a237_1
   - libssh2=1.8.0=h5b517e9_2
   - markupsafe=1.0=py37h470a237_1
-  - matplotlib=3.0.0
   - mistune=0.8.4=py37h470a237_0
   - nbconvert=5.3.1=py_1
   - nbformat=4.4.0=py_1
@@ -91,17 +90,28 @@ dependencies:
   - xz=5.2.4=h470a237_1
   - zeromq=4.2.5=hfc679d8_5
   - zlib=1.2.11=h470a237_3
+  - asn1crypto=0.24.0=py37_0
   - blas=1.0=mkl
+  - cffi=1.11.5=py37h6174b99_1
+  - chardet=3.0.4=py37_1
+  - cryptography=2.3.1=py37hdbc3d79_0
+  - idna=2.7=py37_0
   - intel-openmp=2019.0=118
   - jupyterlab=0.34.9=py37_0
   - libcxx=4.0.1=hcfea43d_1
   - libcxxabi=4.0.1=hcfea43d_1
   - libgfortran=3.0.1=h93005f0_2
+  - matplotlib=3.0.0=py37h54f8f79_0
   - mkl=2019.0=118
   - mkl_fft=1.0.6=py37hb8a8100_0
   - mkl_random=1.0.1=py37h5d10147_1
   - numpy=1.15.1=py37h6a91979_0
   - numpy-base=1.15.1=py37h8a80b8c_0
   - py4j=0.10.7=py37_0
+  - pycparser=2.19=py37_0
+  - pyopenssl=18.0.0=py37_0
+  - pysocks=1.6.8=py37_0
+  - requests=2.19.1=py37_0
   - scipy=1.1.0=py37h28f7352_1
-prefix: /Users/rusucosmin/miniconda3/envs/ada-hw3
+  - urllib3=1.23=py37_0
+prefix: /Users/rusucosmin/miniconda3/envs/ada-prj
