@@ -6,9 +6,8 @@
 
 use Digest::MD5 qw(md5 md5_hex md5_base64);
 
-$PATH = "*********";
-$RECIPE_PAGES_PATH = "$PATH/recipePages";
-$RECIPE_LIST_FILE = "$PATH/weight_uniqueRecipeUrls.tsv";
+$RECIPE_PAGES_PATH = "../data/recipePages";
+$RECIPE_LIST_FILE = "../data/recipeClean/msg_clean.txt";
 
 sub readFile {
 	my $filename = shift;

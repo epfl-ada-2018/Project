@@ -7,7 +7,7 @@
 use Digest::MD5 qw(md5 md5_hex md5_base64);
 
 $RECIPE_PAGES_PATH = "../data/recipePages";
-$RECIPE_LIST_FILE = "test.txt";
+$RECIPE_LIST_FILE = "../data/msg_clean.txt";
 
 sub readFile {
 	my $filename = shift;
