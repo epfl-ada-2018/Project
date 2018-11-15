@@ -1,5 +1,5 @@
 *.DS_Store
 /data/openfoodfact/
 /data/recipePages/
-.*
+.ipynb_checkpoints/*
 
