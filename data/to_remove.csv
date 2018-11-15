@@ -9,10 +9,11 @@ extra
 top
 round
 
-clove
-cloves
+
 leaf
 leaves
+blossom
+blossoms
 flakes
 threads
 paste
@@ -22,10 +23,8 @@ slice
 slices
 wedge
 wedges
-half
 halves
 parts
-drippings
 casings
 pods
 crumbles
@@ -45,6 +44,7 @@ cut
 sliced
 shredded
 crushed
+torn
 
 frozen
 refrigerated
@@ -52,6 +52,10 @@ fresh
 freshly
 organic
 natural
+wild
+aged
+young
+old
 active
 boneless
 skinless
@@ -62,17 +66,13 @@ warm
 cold
 dark
 golden
-fat
 low-fat
-low fat
-low salt
 free
 low
 light
 less
 sodium
 sharp
-sweet
 sweetened
 candied
 softened
