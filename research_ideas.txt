@@ -1,0 +1,44 @@
+______________________
+|Implementation Ideas|
+----------------------
+
+Starting from raw ingredients :
+
+0) What is the distribution of used ingredients in recipes ?                             | Very quick
+   plot the number of time each ingredient is used in an histogram                       |
+
+1) How are ingredients associated to each other (one by one) ?
+Association graph (not directed, weighted), link all ingredients that appear             |
+together in at least one recipe, the weight is the number of times they appear           | Already implemented
+together. Can be extended by the 1-to-1 apriori rules.                                   |
+
+
+2) Are there different, not easily associable, categories of ingredients ?               | medium
+   Apply a community detection algorithm (Grivan-Newman) to identify hidden              |
+   categories
+
+    2.1) if we found categories, what is a representative ingredient of each             | Quick
+        category ? How can we interpret that ? Probably european vs Asian food           |
+
+    2.2) if we found categories, is there one that is more nutritionally balanced ?       |
+         Can we define nutritional profile per category given the ingredients ?           | Long
+         -> e.g. if you lack protein, european is better because more meat (dumb example) |
+         -> The profile would be how much of each nutrient we can get considering         |
+            the ingredients
+
+4) How to know what ingredients to put with others ?                                      | Already implemented
+   Run apriori algorithm on recipes ingredients                                           |
+
+   4.1) Are there cyclic rules ? How do we interpret them ?                               | Quick
+        -> Must be classic dishes (e.g flour, sugar and eggs for cake)                    |
+
+
+5) Can we found "swapable" ingredients ?                                                  | Very quick
+   Lonk at the ingredients in the graph that have exactly the same neighbors.             |
+
+6) Can we suggest replacement for an ingredient in a recipe ?                             |
+   Look at the recipe ingredients, find a common link in the graph to which               |
+   they are all connected :) We Should first look at the result in 5), and                | Depends
+   ideally select an ingredient which has roughly the same nutritional values.            |
+   Optional : if there are possible possibilities, rank them by healthiness               |
+   according to the nutritional values                                                    |
