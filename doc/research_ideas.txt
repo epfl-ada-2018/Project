@@ -9,11 +9,11 @@ Starting from raw ingredients :
 
 1) How are ingredients associated to each other (one by one) ?
 Association graph (not directed, weighted), link all ingredients that appear             |
-together in at least one recipe, the weight is the number of times they appear           | Already implemented
+together in at least one recipe, the weight is the number of times they appear           | Medium
 together. Can be extended by the 1-to-1 apriori rules.                                   |
 
 
-2) Are there different, not easily associable, categories of ingredients ?               | medium
+2) Are there different, not easily associable, categories of ingredients ?               | Medium
    Apply a community detection algorithm (Grivan-Newman) to identify hidden              |
    categories
 
@@ -26,7 +26,7 @@ together. Can be extended by the 1-to-1 apriori rules.                          
          -> The profile would be how much of each nutrient we can get considering         |
             the ingredients
 
-4) How to know what ingredients to put with others ?                                      | Already implemented
+4) How to know what ingredients to put with others ?                                      | Quick
    Run apriori algorithm on recipes ingredients                                           |
 
    4.1) Are there cyclic rules ? How do we interpret them ?                               | Quick
