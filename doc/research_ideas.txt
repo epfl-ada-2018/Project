@@ -10,17 +10,21 @@ Starting from raw ingredients :
 1) How are ingredients associated to each other (one by one) ?
 Association graph (not directed, weighted), link all ingredients that appear             |
 together in at least one recipe, the weight is the number of times they appear           | Medium
-together. Can be extended by the 1-to-1 apriori rules.                                   |
+together. Use the results of the USDA mapping to decrease the number of ingredients.     |
+
+2)Exploit the food groups in nut_def.txt to see wheter recipes are built according to    |
+a pattern (vegetables + meat + rice ?). Use the patterns found to increase the           | Medium
+recommandations accuracy.                                                                |
 
 
-2) Are there different, not easily associable, categories of ingredients ?               | Medium
+3) Are there different, not easily associable, categories of ingredients ?               | Medium
    Apply a community detection algorithm (Grivan-Newman) to identify hidden              |
    categories
 
-    2.1) if we found categories, what is a representative ingredient of each             | Quick
+    3.1) if we found categories, what is a representative ingredient of each             | Quick
         category ? How can we interpret that ? Probably european vs Asian food           |
 
-    2.2) if we found categories, is there one that is more nutritionally balanced ?       |
+    3.2) if we found categories, is there one that is more nutritionally balanced ?       |
          Can we define nutritional profile per category given the ingredients ?           | Long
          -> e.g. if you lack protein, european is better because more meat (dumb example) |
          -> The profile would be how much of each nutrient we can get considering         |
@@ -38,7 +42,7 @@ together. Can be extended by the 1-to-1 apriori rules.                          
 
 6) Can we suggest replacement for an ingredient in a recipe ?                             |
    Look at the recipe ingredients, find a common link in the graph to which               |
-   they are all connected :) We Should first look at the result in 5), and                | Depends
+   they are all connected. We Should first look at the result in 5), and                  | Depends
    ideally select an ingredient which has roughly the same nutritional values.            |
-   Optional : if there are possible possibilities, rank them by healthiness               |
+   Optional : if there are several possibilities, rank them by healthiness                |
    according to the nutritional values                                                    |
