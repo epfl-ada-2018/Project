@@ -1,35 +1,35 @@
 nutrient,Male_RDI(19-30),Female_RDI(19-30)
 Alanine,1.6,1.1
-"Calcium, Ca",1.0,1.0
+"Calcium, Ca",1000.0,1000.0
 "Carbohydrate, by difference",130.0,130.0
-"Choline, total",0.55,0.425
-"Copper, Cu",0.0009,0.0009
+"Choline, total",550.0,425.0
+"Copper, Cu",0.9,0.9
 Total lipid (fat),65.0,65.0
-"Fiber, total dietary",38000.0,25000.0
-"Fluoride, F",4.0,3.0
-"Folate, total",0.4,0.4
+"Fiber, total dietary",38.0,25.0
+"Fluoride, F",4000.0,3000.0
+"Folate, total",400.0,400.0
 "Iron, Fe",8.0,18.0
-Linoleic acid,17000.0,12000.0
+Linoleic acid,17.0,12.0
 "Magnesium, Mg",400.0,310.0
 "Manganese, Mn",2.3,1.8
 Niacin,16.0,14.0
-Pantothenic acid,5000.0,5000.0
+Pantothenic acid,5.0,5.0
 "Phosphorus, P",700.0,700.0
-"Fatty acids, total polyunsaturated",16000000.0,16000000.0
-"Potassium, K",4700000.0,4700000.0
-Protein,56000.0,46000.0
-Riboflavin,1300.0,1100.0
-"Fatty acids, total saturated",12000.0,12000.0
-"Selenium, Se",0.055,0.055
+"Fatty acids, total polyunsaturated",16.0,16.0
+"Potassium, K",4700.0,4700.0
+Protein,56.0,46.0
+Riboflavin,1.3,1.1
+"Fatty acids, total saturated",12.0,12.0
+"Selenium, Se",55.0,55.0
 "Sodium, Na",1500.0,1500.0
-"Sugars, total",39000.0,25000.0
+"Sugars, total",39.0,25.0
 Thiamin,1.2,1.1
-"Vitamin A, RAE",0.9,0.7
-Vitamin B-6,1300.0,1300.0
+"Vitamin A, RAE",900.0,700.0
+Vitamin B-6,1.3,1.3
 Vitamin B-12,2.4,2.4
 "Vitamin C, total ascorbic acid",90.0,75.0
 Vitamin D (D2 + D3),15.0,15.0
-Vitamin E (alpha-tocopherol),0.015,0.015
-Vitamin K (phylloquinone),0.00011999999999999999,8.999999999999999e-05
-Water,0.0037,0.0027
-"Zinc, Zn",0.011,0.008
+Vitamin E (alpha-tocopherol),15.0,15.0
+Vitamin K (phylloquinone),120.0,90.0
+Water,3700.0,2700.0
+"Zinc, Zn",11.0,8.0
